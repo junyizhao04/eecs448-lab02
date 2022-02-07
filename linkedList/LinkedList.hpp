@@ -122,7 +122,7 @@ bool LinkedList<T>::removeBack()
 		isRemoved = true;//set removed to true
 	}
 
-	return(isRemoved);
+	return(isRemoved);//return true if removed
 }	
 
 template <typename T>
