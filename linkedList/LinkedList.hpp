@@ -39,7 +39,7 @@ bool LinkedList<T>::search(T value) const
 	bool isFound = false;
 
 	while (!isFound && temp != nullptr){
-		isFound = (value == temp -> getValue());//check through all linkedlist pointers until find one true or touched end
+		isFound = (value == temp -> getValue());//check through all linkedlist pointers until find one true or touched end, touched end and not found means false
 		temp = temp -> getNext();
 
 	}
