@@ -29,7 +29,7 @@ bool LinkedList<T>::isEmpty() const
 template <typename T>
 int LinkedList<T>::size() const
 {
-	return m_size;//just return size, did not check
+	return m_size;//just return size, did not check, but should done in other functions
 }
 
 template <typename T>
